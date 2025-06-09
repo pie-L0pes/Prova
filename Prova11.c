@@ -78,7 +78,7 @@ void Cadastrar(){
     printf("\033[0m");
     printf("Banda: ");
     scanf(" %[^\n]", cd[num].banda);
-    printf("Genêro: ");
+    printf("Genêro (Número do genêro): ");
     scanf(" %d", &cd[num].genero);
     printf("Ano: ");
     scanf("%d", &cd[num].ano);
