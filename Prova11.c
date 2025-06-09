@@ -78,6 +78,15 @@ void Cadastrar(){
     printf("\033[0m");
     printf("Banda: ");
     scanf(" %[^\n]", cd[num].banda);
+    printf("Escolha o genêro:\n");
+    printf("1 - Pop\n");
+    printf("2 - Rock\n");
+    printf("3 - Hip hop\n");
+    printf("4 - Funk\n");
+    printf("5 - Sertanejo\n");
+    printf("6 - Mpb\n");
+    printf("7 - Rap\n");
+    printf("8 - Reggae\n");
     printf("Genêro (Número do genêro): ");
     scanf(" %d", &cd[num].genero);
     printf("Ano: ");
